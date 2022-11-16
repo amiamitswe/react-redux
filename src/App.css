@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -43,4 +45,10 @@
 
 .mt-2 {
   margin-top: 2rem;
+}
+
+.item {
+  border: 3px solid #61dafb;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }

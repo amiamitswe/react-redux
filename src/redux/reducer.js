@@ -8,9 +8,11 @@ export const cartData = (data = [], action) => {
 
     case actionType.REMOVE_FROM_CART:
       console.log("REMOVE_FROM_CART called");
-      const updateData = [...data];
-      updateData.length && updateData.pop();
-      return [...updateData];
+
+      const remainData = [...data].filter((item) => item.id !== action.data);
+
+      console.log(remainData);
+      return [...remainData];
 
     case actionType.EMPTY_CART:
       console.log("REMOVE_FROM_CART called");
