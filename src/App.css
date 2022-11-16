@@ -52,3 +52,25 @@
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
+
+.cart {
+  position: relative;
+}
+
+.modal {
+  position: fixed;
+  background: #f0f2f4;
+  box-shadow: 0px 0px 20px 0px #605656;
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid green;
+  height: 90vh;
+  left: 50%;
+  transform: translate(-50%, 5%);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.hover {
+  cursor: pointer;
+}

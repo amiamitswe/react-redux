@@ -13,3 +13,10 @@ export const getProductList = () => {
 //     data,
 //   };
 // };
+
+export const productSearch = (query) => {
+  return {
+    type: actionType.SEARCH_PRODUCT,
+    query,
+  };
+};
